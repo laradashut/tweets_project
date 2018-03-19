@@ -26,6 +26,7 @@ module.exports.getAll = (req, res) => {
 // };
 
 module.exports.getOne = (req, res) => {
+  console.log('ny params', req.params)
   models.Profile.where({ id: req.params.id }).fetch()
     .then(profile => {
       if (!profile) {

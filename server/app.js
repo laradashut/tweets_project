@@ -21,7 +21,9 @@ app.use(middleware.flash());
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.use('/', routes.auth);
-app.use('/api', routes.api);
-app.use('/api/profiles', routes.profiles);
+app.use('/home', routes.home);
+app.use('/home/profiles', routes.profiles);
+app.use('/tweets', routes.tweets);
+app.use('/brands', routes.brands);
 
 module.exports = app;

@@ -1,7 +1,6 @@
-const config = require('config')['knex'];
+const config = require('config')['knex']
 
-module.exports = function(grunt) {
-
+module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -25,18 +24,18 @@ module.exports = function(grunt) {
           password: config.connection.password,
           host: config.connection.host,
           port: config.connection.port,
-          database: 'template1'
+          database: 'thesis'
         },
         name: config.connection.database
       }
     }
 
-  });
+  })
 
-  grunt.loadNpmTasks('grunt-mocha-test');
-  grunt.loadNpmTasks('grunt-eslint');
-  grunt.loadNpmTasks('grunt-pg');
+  grunt.loadNpmTasks('grunt-mocha-test')
+  grunt.loadNpmTasks('grunt-eslint')
+  grunt.loadNpmTasks('grunt-pg')
 
-  grunt.registerTask('default', ['eslint']);
-  grunt.registerTask('test', ['mochaTest']);
-};
+  grunt.registerTask('default', ['eslint'])
+  grunt.registerTask('test', ['mochaTest'])
+}
