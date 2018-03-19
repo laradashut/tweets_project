@@ -1,17 +1,10 @@
-# Project Name
+# Tweets Analytics
 
-The project description
+_As a Twitter Advertiser I want to know what the ratio of positive to negative tweets about my brand over the last 3 month by 5 min increments_
 
 ## Team
 
-- teamMember
-- teamMember
-- teamMember
-- teamMember
-
-## Roadmap
-
-View the project roadmap [here](LINK_TO_DOC)
+- Lara Dashut
 
 ## Contributing
 
@@ -24,10 +17,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Tasks](#tasks)
-
-## Usage
-
-> Some usage instructions
 
 ## Requirements
 
